@@ -18,29 +18,49 @@
 <body>
 
     <!--imagem de fundo-->
-    <div class="bg-[url('./img/fundo-natureza.png')] bg-cover bg-no-repeat bg-fixed  flex items-center justify-center min-h-screen ">
+    <div class="bg-[url('./img/fundo-natureza.png')] bg-cover bg-no-repeat bg-fixed  flex items-center justify-center min-h-screen relative">
 
         <body>
             <main>
-                <div class="w-450 h-200 bg-slate-200/30 border border-gray-300/30 rounded-[20px] shadow-inner backdrop-blur-md bg-opacity-100 font-sans-serif text-white">
+                <div class="w-450 h-200 bg-slate-200/30 border border-gray-300/30 rounded-[20px] shadow-inner backdrop-blur-md bg-opacity-100 font-sans-serif text-white  ">
 
-                    <div class="flex list-none flex-row gap-4 text-[20px] max-lg:hidden flex items-center justify-center font-sans">
+                    <ul class=" absolute left-20 top-5 text-[28px]">
+                        <li>NatureLife</li>
+                    </ul>
+                        <ul class="flex space-x-5 justify-center absolute inset-x-0 top-5 gap-4 text-[28px] font-sans responsive ">
                         <li>Home</li> 
                         <li>About us</li>
                         <li>Princing</li>
                         <li>Blog</li>
                         <li>Contact</li>
+                        </ul>
+                        
                         <img src="./img/arvores.png " class="w-150 h-150 absolute right-0 bottom-0 size-16 responsive" alt="">
-                    </div>
-                    <button class="py-0 px-4 border border-gray-200/20 rounded mr-[200px] shadow-inner backdrop-blur-md bg-opacity-100 ">
-                        <h1 class="text-none text-[18px] font-sans ">Sign in</h1>
+                  
+                    <button class="py-1 px-6 border border-gray-200/20 rounded mr-[200px] shadow-inner backdrop-blur-md bg-opacity-100 absolute right-0 top-5 ">
+                        <h1 class="text-none text-[28px] font-sans ">Sign in</h1>
+                    </button>
+
+                    <ul class="flex text-[80px] leading-[1.0] absolute inset-y-50 left-30 font-sans">
+                        <li>Look Deep Into <br> Nature</li>
+                    </ul>
+
+                    <ul class="flex text-[28px] absolute inset-y-100 left-30 break-text font-sans">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                             tempor incididunt ut labore et dolore magna aliqua. </li>
+                    </ul>
+
+                    <button class="py-2 px-5 border border-gray-200/20 rounded mr-[200px] shadow-inner backdrop-blur-md bg-opacity-100 absolute left-30 bottom-50">
+                        <h2 class="text-none text-[28px]">Book Now</h2>
                     </button>
                     
-                    <div class="flex list-none flex-row gap-4 text-[20px] max-lg:hidden flex items-center justify-center font-sans"></div>
+                    <ul class="flex list-none flex-row gap-4 text-[28px] absolute left-30 bottom-6 space-x-5  font-sans hoover">
                         <li>Instagram</li>
                         <li>Facebook</li>
                         <li>Youtube</li>
                         <li>Twiiter</li>
+                    </ul>
+                 
                    </div>
                </div>
               
